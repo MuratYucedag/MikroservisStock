@@ -1,12 +1,6 @@
-using MikroservisStock.Discount.Context;
-using MikroservisStock.Discount.Services;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddDbContext<DiscountContext>();
-builder.Services.AddScoped<IDiscountCouponService, DiscountCouponService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

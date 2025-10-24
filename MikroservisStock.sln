@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.Catalog", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.Discount", "Services\MikroservisStock.Discount\MikroservisStock.Discount.csproj", "{D4FE7130-24AA-4F66-8A09-32A1E5E38ECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.Basket", "Services\MikroservisStock.Basket\MikroservisStock.Basket.csproj", "{03093920-B833-4A8A-8A80-4504E56271E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{D4FE7130-24AA-4F66-8A09-32A1E5E38ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4FE7130-24AA-4F66-8A09-32A1E5E38ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4FE7130-24AA-4F66-8A09-32A1E5E38ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03093920-B833-4A8A-8A80-4504E56271E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03093920-B833-4A8A-8A80-4504E56271E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03093920-B833-4A8A-8A80-4504E56271E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03093920-B833-4A8A-8A80-4504E56271E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{89D4D0C4-82E2-4D41-8C13-67210381D3A2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D4FE7130-24AA-4F66-8A09-32A1E5E38ECB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{03093920-B833-4A8A-8A80-4504E56271E2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F97C7D3-3991-4888-A2A2-42FAF27E984E}
