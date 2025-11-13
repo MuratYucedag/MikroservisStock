@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.Cargo", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.IdentityServer", "IdentityServer\MikroservisStock.IdentityServer\MikroservisStock.IdentityServer.csproj", "{432E8435-73A9-778C-C3B1-B4E8FA2E34BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikroservisStock.OcelotGateway", "ApiGateWay\MikroservisStock.OcelotGateway\MikroservisStock.OcelotGateway.csproj", "{63738814-B7DD-42FE-9756-B198FA69A1C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{432E8435-73A9-778C-C3B1-B4E8FA2E34BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432E8435-73A9-778C-C3B1-B4E8FA2E34BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432E8435-73A9-778C-C3B1-B4E8FA2E34BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63738814-B7DD-42FE-9756-B198FA69A1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63738814-B7DD-42FE-9756-B198FA69A1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63738814-B7DD-42FE-9756-B198FA69A1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63738814-B7DD-42FE-9756-B198FA69A1C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{03093920-B833-4A8A-8A80-4504E56271E2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{CF433257-58FF-4EB2-8EEC-3879DE16829C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{432E8435-73A9-778C-C3B1-B4E8FA2E34BA} = {A170E0E7-6C82-4C59-9DAC-25AD1DE26D1B}
+		{63738814-B7DD-42FE-9756-B198FA69A1C4} = {55E313E0-1C7C-45F0-B7B8-39D6FB744930}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F97C7D3-3991-4888-A2A2-42FAF27E984E}
